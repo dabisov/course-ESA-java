@@ -12,7 +12,9 @@ import java.util.List;
 
 @RestController
 public class BoxController {
+
     private final BoxRepository boxRepository;
+
     private final GiftRepository giftRepository;
 
     @Autowired
